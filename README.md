@@ -5,3 +5,5 @@ This code extracts group velocity dispersion curve for the earthquake data as we
 It is required to specify minimum and maximum frequency range to obtain dispersion curve.
 Also, specify the number of filters to obtain dispersion as scales of CWT. It is required to call scales from CWT function of obspy.signal.tf_misfit.
 'test_syn.sac' or 'AAM_CBN.sac' can be used as a sample data file for extracting group velocity dispersion curve.
+
+Reference: P. Gupta and S. Mukhopadhyay, "Extraction of group velocity dispersion curves of surface waves using continuous wavelet transform," in IEEE Geoscience and Remote Sensing Letters, doi: 10.1109/LGRS.2023.3287470.
